@@ -1,0 +1,9 @@
+name: My Work Flow 1
+on: push
+jobs:
+ first:
+  runs-on: ubunto-latest
+  steps:
+  - name: Print Message
+    run: echo My Message
+   
